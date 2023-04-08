@@ -1,0 +1,60 @@
+
+body{font-family: 'Montserrat', serif;
+    position: center;
+              max-width:1500px; 
+              height:1700px;       
+    border: 4px solid Thistle ;
+    border-top: 10px solid Thistle ;
+    margin: auto;
+    padding: 60px;
+    background-color:plum;
+              }
+  .img1 {width: 450px; height:450px;
+         border: 2px solid plum;
+  padding:10px;
+}
+  .button{
+    width: 190px; height:80px;
+    font-size:20px;
+  background-color:Thistle;
+  border: px solid plum;
+  margin: 15px;
+  margin-top: 80px;
+   }
+  .header-tittle { text-align:center;
+color:white;
+    font-size:70px;
+  }
+  .title-sweets{
+font-style:italic;
+    font-size:45px;
+  color:white;
+  border: 1px solid plum;
+  background-color: Thistle; }
+  .links {color:white; background-color:Thistle;
+  }
+  h4 {color:white;}
+  h3 {font-family: Palladio, serif;
+    color:white;}
+  .box-reviews { position:absolute;
+    width: 455px;
+    margin-left: 920px;
+    margin-bottom: 145px;
+    font-size:24px;
+    background-color: Thistle ;
+    text-align:center;
+  
+}
+  .div-our-services {margin-top: 80px;
+   font-size:25px;}
+  .list-service
+  {padding-left:10px;}
+  .img-li {width:10px;}
+  .links-div {
+    font-size:35px;
+    margin-top: 120px;
+  }
+  .p-main {text-align: center;
+  font-size: 25px;
+  margin-top: 40px;
+  margin-bottom: 40px;}
