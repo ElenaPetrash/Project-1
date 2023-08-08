@@ -1,27 +1,43 @@
 
-body{font-family: 'Montserrat', serif;
-    position: center;
-              max-width:1500px; 
-              height:1700px;       
-    border: 4px solid Thistle ;
-    border-top: 10px solid Thistle ;
-    margin: auto;
+body {font-family: 'Montserrat', serif;
+    position: absolute;
+    box-sizing: border-box;
+    max-width:max-content; 
+    height:auto;       
+    margin: 100px;
+    margin-top: 10px ;
     padding: 60px;
-    background-color:plum;
+    background-color: #58585A
               }
+  .nav_bar{
+    background-color: black;
+    display: flex;
+    border: solid 4px black;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+.button_nav_bar {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 26px;
+  background-color: black;
+  color: white;
+
+}
+
   .img1 {width: 450px; height:450px;
-         border: 2px solid plum;
   padding:10px;
 }
-//.
-  .button{
+  .button {
     width: 190px; height:80px;
     font-size:20px;
   background-color:Thistle;
-  border: px solid plum;
+  border: 3px solid plum;
+  border-radius: 22px;
   margin: 15px;
   margin-top: 80px;
    }
+
+   .button:hover {background-color: white;}
   .header-tittle { text-align:center;
 color:white;
     font-size:70px;
@@ -30,16 +46,16 @@ color:white;
 font-style:italic;
     font-size:45px;
   color:white;
-  border: 1px solid plum;
-  background-color: Thistle; }
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0); }
   .links {color:white; background-color:Thistle;
   }
   h4 {color:white;}
   h3 {font-family: Palladio, serif;
     color:white;}
   .box-reviews { position:absolute;
-    width: 455px;
-    margin-left: 920px;
+    width: 472px;
+    margin-left: 960px;
     margin-bottom: 145px;
     font-size:24px;
     background-color: Thistle ;
@@ -59,3 +75,11 @@ font-style:italic;
   font-size: 25px;
   margin-top: 40px;
   margin-bottom: 40px;}
+
+  a {color: black;}
+ 
+  @media (max-width:540px)    
+  {table { display: flex;
+    flex-direction: column;
+
+  }}
